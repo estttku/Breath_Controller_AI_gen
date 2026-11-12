@@ -380,7 +380,7 @@ void loop() {
 Сейчас плата «пустая» и компьютер не знает, что это музыкальный контроллер. Нам нужно один раз записать в неё управляющую программу (скетч).
 
 #### 4.1. Установка программы на компьютер
-* **Для Windows / macOS:** Скачайте и установите бесплатную программу **Arduino IDE** с официального сайта [arduino.cc](https://arduino.cc).
+* **Для Windows / macOS:** Скачайте и установите бесплатную программу **Arduino IDE** с официального сайта [arduino.cc](https://arduino.cc). Если он недоступен, то используйте официальный репозиторий: [https://github.com/arduino/arduino-ide/releases](https://github.com/arduino/arduino-ide/releases)
 * **Для Debian / Ubuntu Linux:** Установите пакет из репозитория и добавьте себя в группу доступа к USB-портам:
   ```bash
   sudo apt update && sudo apt install arduino
